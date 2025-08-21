@@ -47,7 +47,9 @@ Model Waveform
 
 <img width="703" height="679" alt="image" src="https://github.com/user-attachments/assets/e7c7c7f8-ccf2-41ac-b1f3-325989941a6f" />
 
-Program : Am=4.2;
+Program :
+```
+Am=4.2;
 Ac=8.4;
 fm=368;
 fc=3680;
@@ -64,7 +66,7 @@ s2=(Ac-m).*cos(2*3.14*fc*t);
 s=s1-s2;
 subplot(3,1,3);
 plot(t,s);
-
+```
 
 Output Graph
 <img width="703" height="679" alt="image" src="https://github.com/gaurav12360/DSBSC-/blob/main/graph.dsbsc.png?raw=true" />
